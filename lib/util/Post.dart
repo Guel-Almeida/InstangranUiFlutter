@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 
 
+
 class Post extends StatelessWidget {
  
   final String user;
@@ -45,6 +46,11 @@ class Post extends StatelessWidget {
         //Post 
         Container(
       height: 200,
+      child: Image.asset(
+        'assets/img/post.png',
+        width: 200,
+        scale:1,
+        ),
       color: Colors.grey,
       ),
       //ABAIXO DO POST
